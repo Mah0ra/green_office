@@ -1,0 +1,63 @@
+/*global*/
+/*div, header, article, nav, footer, img, a {
+  border: 1px dashed red;
+}*/
+body {
+  background-image: url(../img/fond.png);
+  font-family: verdana, sans-serif;
+}
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/*header*/
+header {
+  background-color: rgb(184, 203, 33);
+  padding: 20px 0;
+}
+nav a {
+  text-transform: uppercase;
+  color: #2c4726;
+  font-size: 1,3em;
+  font-family: 'Oswald', sans-serif;
+  padding-right: 50px;
+  }
+nav {
+  float: right;
+  padding: 50px 0;
+}
+
+/*main*/
+main {
+  background-color: white;
+}
+p, li {
+  color: #696970;
+}
+article {
+  padding: 20px;
+  padding-bottom: 70px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(184, 203, 33);
+}
+i {
+  padding-right: 5px;
+}
+article img {
+  max-width: 25%;
+  float: left;
+  margin-right: 10px;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(184, 203, 33);
+  float: right;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+}
